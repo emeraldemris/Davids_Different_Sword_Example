@@ -1,13 +1,12 @@
 public class Solution {
 
-    public static void main(String[] args) {
-
-
+    public static void main(final String[] args) {
         System.out.println("what kind of IceCream is David eating");
 
-        Person david = new Person("David", "Cheese Lord");
-        Person noah = new Person( "Noah", "Buffalo King");
+        final Person david = new Person("David", "Cheese Lord");
+        final Person noah = new Person( "Noah", "Buffalo Tyrant");
         Person zach = new Person("Zach", "of Seatac");
+        zach = new Person("Zach", "of Seatac 2");
 
         final Icecream chocolate = new Icecream( "chocolate", 100);
 
@@ -15,12 +14,10 @@ public class Solution {
 
         david.setIcecream(chocolate);
 
-        //david
+	//david
 
         System.out.println(david.getFullTitle() +  " is eating " + david.getIceCreamType);
         System.out.println(zach.getFullTitle() + " tbd");
         System.out.println(noah.getFullTitle() + " tbd");
-
-
     }
 }
