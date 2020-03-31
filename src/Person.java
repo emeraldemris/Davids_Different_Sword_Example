@@ -9,7 +9,6 @@ public class Person {
         int x = Math.min(1, 2);
     }
 
-<<<<<<< Updated upstream
         public Object getName () {
             return this.name;
         }
@@ -18,15 +17,6 @@ public class Person {
             return this.title;
             //david
         }
-=======
-    public Object getName() {
-        return this.name;
-    }
->>>>>>> Stashed changes
-
-    public String getTitle() {
-        return this.title;
-    }
 
 
     public String getFullTitle() {
