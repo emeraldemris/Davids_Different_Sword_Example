@@ -51,19 +51,19 @@ public class Solution {
                 System.out.println("who?");
             }
         }
+         david.printData();
 
+            //this is just to see if I can call the data from Method Practice
+            final MethodPracticeTestOne runner = new MethodPracticeTestOne();
+            System.out.println(runner.menthodint1);
+            //final, because this is a result I don't change, new instance of the object, print object runner with method 1, which will be the static methodint1.
+        /*final MethodPracticeTestOne runner2 = new MethodPracticeTestOne();
+        System.out.println(runner.menthodint2);*/
 
-
-
-
-
-            //david
-            System.out.println(zach.getFullTitle() + "is eating " + zach.getIceCreamType());
-            System.out.println(noah.getFullTitle() + " is eating " + noah.getIceCreamType());
-
-            david.printData();
 
 
         }
 
-    }
+
+
+}
